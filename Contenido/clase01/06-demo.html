@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo - Clase 01</title>
+</head>
+
+<body>
+
+    <h1>Demo - Clase 01</h1>
+
+    <form>
+        <label for="ctrlNombreCompleto">Nombre Completo:</label>
+        <input type="text" name="ctrlNombreCompleto" id="ctrlNombreCompleto">
+        <br/>
+        <br/>
+        <label for="ctrlEdad">Edad:</label>
+        <input type="text" name="ctrlEdad" id="ctrlEdad">
+
+        <br>
+        <br>
+
+        <button type="button" onclick="guardar()">Guardar</button>
+        <button type="button" onclick="mostrarGuardados()">Mostar Personas Registradas</button>
+    </form>
+
+    <script>
+        var listaPersonas = [];
+
+        function guardar() {
+            var _nombreCompleto = document.getElementById('ctrlNombreCompleto').value;
+            var _edad = parseInt(document.getElementById('ctrlEdad').value);
+
+            if (_edad > 15) {
+                var persona = {
+                    nombreCompleto: _nombreCompleto,
+                    edad: _edad
+                };
+                listaPersonas.push(persona);
+                alert('Guardado Correctamente');
+            } else {
+                console.log('La Persona es menor de edad');
+            }
+        }
+
+        function mostrarGuardados() {
+            var personas = ''
+            for (var i = 0; i < listaPersonas.length; i++) {
+                var p = listaPersonas[i];
+                personas = personas + p.nombreCompleto + ' , ';
+            }
+            alert(personas);
+        }
+    </script>
+</body>
+
+</html>
