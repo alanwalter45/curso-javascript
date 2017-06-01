@@ -23,7 +23,6 @@ Lugar : “ Laboratorio IITIC en la Facultad de Tecnología, Regimientos Campos 
 
 Sábado 20 de  mayo del 2017 hrs 11 a 13
 
-
 <b>Clase 02</b> - 2 horas 
  
 + Arrays
