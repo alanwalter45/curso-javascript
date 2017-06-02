@@ -58,6 +58,8 @@ Sábado 17 de junio del 2017 hrs 11 a 13
 
 > Las diapositivas de cada clase estarán disponibles [aquí](https://github.com/alanwalter45/Diapositivas)
 
+> Repositorio Oficial de la Comunidad [JavaScript Sucre](https://github.com/javascript-sucre/javascript-pro-B)
+
 
 Alan Walter - alanwalter45@gmail.com
 
