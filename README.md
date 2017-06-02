@@ -56,6 +56,8 @@ Sábado 10 de junio del 2017 hrs 11 a 13
  
 Sábado 17 de junio del 2017 hrs 11 a 13
 
+> Las diapositivas de cada clase estarán disponibles [aquí](https://github.com/alanwalter45/Diapositivas)
+
 
 Alan Walter - alanwalter45@gmail.com
 
