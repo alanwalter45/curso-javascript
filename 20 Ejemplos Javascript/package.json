@@ -1,0 +1,16 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "alanwalter45",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "rxjs": "^6.5.4"
+  }
+}

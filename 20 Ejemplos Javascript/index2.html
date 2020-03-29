@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <button type="button" name="button1" onclick="espera()">esperar</button>
+    <button type="button" name="button1" onclick="noEspera()">No Esperar</button>
+
+    <script type="text/javascript">
+      function espera(){
+        for(let i=0;i<100000;i++){
+          console.log(i);
+        }
+      }
+      function noEspera(){
+        console.log('aqui estoy ejecutandome!!!!');
+      }
+    </script>
+  </body>
+</html>

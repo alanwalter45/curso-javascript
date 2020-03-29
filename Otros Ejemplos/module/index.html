@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eval</title>
+</head>
+
+<body>
+    <h1 id="txtRespuesta"></h1>
+    <input id="txtNumber" type="number" value="5">
+    <button onclick="importar(txtNumber.value)">obtener info</button>
+    <script type="module">
+        window.importar = function(numero) {
+            numero = parseInt(numero) || 0;
+            const modulo = './module.mjs';
+            import(modulo).then(m => {
+                const s = new m.Square(numero);
+                document.getElementById('txtRespuesta').innerText = s.area;
+            });
+        }
+    </script>
+</body>
+
+</html>

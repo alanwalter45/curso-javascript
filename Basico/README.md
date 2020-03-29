@@ -5,7 +5,9 @@ Resolución de algunos ejemplos básicos.
 * Tipos de Datos.
 * Estructuras de datos condicionales e Iterativas.
 * Funciones.
-
+* Ejemplo 01
+* Ejemplo 02
+* Ejemplo 03
 
 Para conseguir ejecutar cada ejemplo recuerda
 
@@ -17,7 +19,7 @@ Para conseguir ejecutar cada ejemplo recuerda
 4. Ejecutar el Comando
 
   ```sh
-    node ./clase01/01-tipos-datos.js
+    node ./01-tipos-datos.js
   ```
  
  <b>Nota :</b>
