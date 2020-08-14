@@ -1,0 +1,8 @@
+{
+    "host_url": "http://localhost",
+    "database": {
+        "name": "app-db",
+        "user": "root",
+        "password": "..."
+    }
+}
